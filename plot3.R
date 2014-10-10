@@ -1,6 +1,6 @@
 #READ
 
-setwd("C:\\Users\\Sekoul\\Dropbox\\MISC\\Code\\Coursera\\ExploratoryDataAnalysis\\Ass1")
+setwd("C:\\Users\\Admin\\Dropbox\\Coursera\\ExploratoryDataAnalysis\\Ass1")
 
 #this puts the file into a variable called data
 data <- read.table("household_power_consumption.txt", header=TRUE, stringsAsFactors=FALSE, na.strings=c("?"), sep=";")
